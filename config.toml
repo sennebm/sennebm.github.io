@@ -1,6 +1,6 @@
 baseURL = "https://sennebm.github.io"
 languageCode = "en"
-title = "senne's corner on the web"
+title = "sennebm"
 
 [menus]
   [[menus.main]]
@@ -40,8 +40,7 @@ title = "senne's corner on the web"
     ordered = false
 
 [params]
-  [params.meta]
-    favicon = 'favicon.ico'
+  favicon = "favicon.ico"
   [params.theme_config]
     appearance = "auto"
     back_home_text = ".."

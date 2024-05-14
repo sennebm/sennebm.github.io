@@ -1,6 +1,11 @@
 [[entries]]
-title = "blog posts"
+title = "topics"
 
   [[entries.entries]]
-    title = "nothing to see here!"
+    title = "finance"
+    [[entries.entries.entries]]
+      title = "stocks"
+
+  [[entries.entries]]
+    title = "technology"
 
