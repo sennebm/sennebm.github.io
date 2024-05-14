@@ -1,20 +1,12 @@
-baseURL = 'https://example.org/'
-languageCode = 'en-us'
-title = "senne's webblog"
+baseURL = "https://sennebm.github.io"
+languageCode = "en"
+title = "senne's corner on the web"
 
 [menus]
   [[menus.main]]
-    name = 'Home'
+    name = 'home'
     pageRef = '/'
     weight = 10
-  [[menus.main]]
-    name = 'Products'
-    pageRef = '/products'
-    weight = 20
-  [[menus.main]]
-    name = 'Services'
-    pageRef = '/services'
-    weight = 30
 
 
 [module]
@@ -48,6 +40,8 @@ title = "senne's webblog"
     ordered = false
 
 [params]
+  [params.meta]
+    favicon = 'favicon.ico'
   [params.theme_config]
     appearance = "auto"
     back_home_text = ".."

@@ -20,8 +20,12 @@
   figcaption { color: $--secondary-text-color; }
 }
 
+//@mixin dark-appearance {
+//  @include theme(#212121, #fafafa, #eeeeee, #0071bc, #a359e9);
+//}
+
 @mixin dark-appearance {
-  @include theme(#212121, #fafafa, #eeeeee, #0071bc, #a359e9);
+  @include theme(#f0f5fc, #212121, #666666, #1e70bf, #921292);
 }
 
 @mixin light-appearance {
